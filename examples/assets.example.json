@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "scene": "example-project",
+  "aspectRatio": "16:9",
+  "masterCanvas": {
+    "width": 3840,
+    "height": 2160
+  },
+  "layers": [
+    {
+      "id": "sky",
+      "role": "opaque-background",
+      "file": "assets/00-sky.webp",
+      "mobileFile": "assets/mobile/00-sky.webp",
+      "width": 3840,
+      "height": 2160,
+      "anchor": "center",
+      "depth": 0,
+      "critical": true
+    },
+    {
+      "id": "landscape",
+      "role": "distant-landscape",
+      "file": "assets/10-landscape.webp",
+      "mobileFile": "assets/mobile/10-landscape.webp",
+      "width": 3840,
+      "height": 2160,
+      "anchor": "bottom-center",
+      "depth": 0.2,
+      "critical": true
+    },
+    {
+      "id": "midground",
+      "role": "environment-midground",
+      "file": "assets/20-midground.webp",
+      "mobileFile": "assets/mobile/20-midground.webp",
+      "width": 3840,
+      "height": 2160,
+      "anchor": "bottom-center",
+      "depth": 0.45,
+      "critical": true
+    },
+    {
+      "id": "hero",
+      "role": "isolated-hero-object",
+      "file": "assets/30-hero.png",
+      "mobileFile": "assets/mobile/30-hero.png",
+      "width": 2880,
+      "height": 1620,
+      "anchor": "bottom-center",
+      "transformOrigin": "50% 48%",
+      "depth": 0.7,
+      "critical": true
+    },
+    {
+      "id": "foregroundLeft",
+      "role": "foreground-occluder-left",
+      "file": "assets/40-foreground-left.png",
+      "mobileFile": "assets/mobile/40-foreground-left.png",
+      "width": 2880,
+      "height": 1620,
+      "anchor": "bottom-left",
+      "transformOrigin": "21% 52%",
+      "depth": 0.9,
+      "critical": true
+    },
+    {
+      "id": "foregroundRight",
+      "role": "foreground-occluder-right",
+      "file": "assets/41-foreground-right.png",
+      "mobileFile": "assets/mobile/41-foreground-right.png",
+      "width": 2880,
+      "height": 1620,
+      "anchor": "bottom-right",
+      "transformOrigin": "79% 52%",
+      "depth": 0.9,
+      "critical": true
+    },
+    {
+      "id": "edgeFrame",
+      "role": "optional-edge-frame",
+      "file": "assets/50-edge-frame.png",
+      "mobileFile": "assets/mobile/50-edge-frame.png",
+      "width": 3840,
+      "height": 2160,
+      "anchor": "bottom-center",
+      "depth": 1,
+      "critical": false
+    }
+  ]
+}
